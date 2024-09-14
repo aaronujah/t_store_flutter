@@ -11,6 +11,7 @@ class App extends StatelessWidget {
     return GetMaterialApp(
       title: 'T Store',
       themeMode: ThemeMode.system,
+      debugShowCheckedModeBanner: false,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
       home: const OnBoardingScreen(),
